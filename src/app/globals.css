@@ -19,3 +19,12 @@ body {
   background: var(--background);
   font-family: "Lora";
 }
+
+.title-transparent {
+  background-image: url("/mramor.webp");
+  background-clip: text;
+  color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+}
