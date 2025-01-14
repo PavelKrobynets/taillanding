@@ -9,9 +9,9 @@ export default function Header() {
   return (
     <header className="h-20 px-6 -mb-20  relative flex items-center justify-between lg:px-16 top-4">
       {/* MOBILE */}
-      <div className="flex lg:hidden">
+      <div className="flex lg:hidden ">
         {isOpened ? (
-          <div className="color-white w-4 h-4 cursor-pointer">
+          <div className="color-white w-4 h-4 cursor-pointer z-10">
             <X
               width={30}
               height={30}
@@ -23,11 +23,11 @@ export default function Header() {
             width={30}
             height={30}
             onClick={() => setIsOpened((prev) => !prev)}
-            className="cursor-pointer"
+            className="cursor-pointer z-10"
           />
         )}
         <nav
-          className={`absolute top-20 left-0 w-full bg-background text-white transition-all duration-700 ease-in-out ${
+          className={`absolute -top-3.5 pt-[10vh] left-0 w-full bg-background text-white transition-all duration-700 ease-in-out ${
             isOpened ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
           }`}
         >
@@ -45,7 +45,7 @@ export default function Header() {
         alt="logo"
         width={50}
         height={50}
-        className="cursor-pointer"
+        className="cursor-pointer z-10"
       />
     </header>
   );
