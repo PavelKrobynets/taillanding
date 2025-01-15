@@ -6,6 +6,18 @@
   background-repeat: no-repeat;
 }
 
-.darker-image {
-  filter: brightness(0.1);
+.darker_image {
+  filter: brightness(70%);
+  opacity: 0.9;
+  position: absolute;
+  right: 1px;
+  top: 20%;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1536px) {
+  .darker_image {
+    top: 20%;
+    right: 5%;
+  }
 }

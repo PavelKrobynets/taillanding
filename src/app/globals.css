@@ -28,3 +28,8 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+
+.mw {
+  max-width: 1650px;
+  margin: 0 auto;
+}

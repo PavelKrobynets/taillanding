@@ -7,7 +7,7 @@ import NavMenu from "../navMenu/NavMenu";
 export default function Header() {
   const [isOpened, setIsOpened] = useState<boolean>(false);
   return (
-    <header className="h-20 px-6 -mb-20  relative flex items-center justify-between lg:px-16 top-4">
+    <header className="h-20 px-6 -mb-20 z-50 relative flex items-center justify-between lg:px-16 top-4 xl:max-w-[1650px] xl:mx-auto">
       {/* MOBILE */}
       <div className="flex lg:hidden ">
         {isOpened ? (
