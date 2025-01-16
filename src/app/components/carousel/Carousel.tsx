@@ -24,12 +24,12 @@ export default function Carousel() {
         freeMode={true}
         modules={[Autoplay, FreeMode]}
         className="sample-slider front"
+        observer={true}
+        observeParents={true}
+        slidesPerView={3}
         breakpoints={{
-          640: {
-            slidesPerView: 2,
-          },
           768: {
-            slidesPerView: 3,
+            slidesPerView: 4,
           },
           1024: {
             slidesPerView: 5,
@@ -62,12 +62,10 @@ export default function Carousel() {
         freeMode={true}
         modules={[Autoplay, FreeMode]}
         className="sample-slider rotated"
+        slidesPerView={3}
         breakpoints={{
-          640: {
-            slidesPerView: 2,
-          },
           768: {
-            slidesPerView: 3,
+            slidesPerView: 4,
           },
           1024: {
             slidesPerView: 5,

@@ -45,7 +45,7 @@ export default function Header() {
         alt="logo"
         width={50}
         height={50}
-        className="cursor-pointer z-10"
+        className="cursor-pointer z-10 w-[5rem] h-[5rem] lg:w-[6rem] lg:h-[6rem]"
       />
     </header>
   );
