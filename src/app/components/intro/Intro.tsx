@@ -4,9 +4,9 @@ import frontImage from "/public/main-front.webp";
 
 export default function Intro() {
   return (
-    <section className={`${styles.background}`}>
+    <section className={`${styles.background} z-10`}>
       <div
-        className={`flex flex-row relative py-[18vh] gap-8 xl:max-w-[1650px] xl:mx-auto`}
+        className={`flex flex-row relative py-[22vh] gap-8 xl:max-w-[1650px] xl:mx-auto`}
       >
         <div className="z-10">
           <ul className="flex flex-row gap-8 text-base font-bold ml-6">

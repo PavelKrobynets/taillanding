@@ -1,0 +1,26 @@
+.sample-slider {
+  display: flex;
+  justify-content: center;
+  border-block: 1px solid rgba(255, 255, 255, 0.325);
+
+  .swiper-wrapper {
+    padding-block: 30px;
+    transition-timing-function: linear !important;
+  }
+}
+
+.sample-slider img > path {
+  fill: white;
+  color: white;
+}
+
+.front {
+  z-index: 10;
+  background-color: #0a0a0a;
+}
+
+.rotated {
+  margin-top: -20px;
+  transform: rotateZ(-3deg);
+  z-index: -100;
+}
