@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: rgb(7, 3, 1);
     --foreground: #ededed;
   }
 }
@@ -29,7 +29,79 @@ body {
   background-attachment: fixed;
 }
 
+.text-stroke {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #d0c9c98c;
+}
+
+.text-stroke-bg {
+  position: absolute;
+  font-size: 12rem;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #d0c9c90d;
+}
+
 .mw {
   max-width: 1650px;
   margin: 0 auto;
+}
+
+.btn {
+  position: relative;
+  padding: 14px 40px 13px;
+  color: #d4d4d8;
+  font-size: 18px;
+  font-weight: 500;
+  background: transparent;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  transition: all 0.3s linear;
+  z-index: 1;
+}
+
+.btn:before {
+  position: absolute;
+  left: 46px;
+  top: 0;
+  right: 95px;
+  background: #d4d4d825;
+  height: 1px;
+  content: "";
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+
+.btn::after {
+  position: absolute;
+  left: 91px;
+  bottom: 0;
+  right: 50px;
+  background: #d4d4d825;
+  height: 1px;
+  content: "";
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  color: #d4d4d8;
+}
+
+.btn:hover:before {
+  left: 0;
+  right: 0;
+  background: #d4d4d8;
+  height: 2px;
+  transition: all 0.5s ease;
+}
+
+.btn:hover:after {
+  left: 0;
+  right: 0;
+  background: #d4d4d8;
+  height: 2px;
+  transition: all 0.5s ease;
 }

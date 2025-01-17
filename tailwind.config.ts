@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      lineHeight: {
+        "12": "3.7rem",
+      },
     },
   },
   plugins: [],
