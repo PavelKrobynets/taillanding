@@ -15,6 +15,11 @@ export default {
       lineHeight: {
         "12": "3.7rem",
       },
+      brightness: {
+        80: ".8",
+        85: ".85",
+        90: ".9",
+      },
     },
   },
   plugins: [],
