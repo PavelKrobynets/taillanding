@@ -3,37 +3,35 @@ import Image from "next/image";
 
 export default function Advantages() {
   return (
-    <section className="px-7 md:flex md:flex-col md:items-center md:px-20 xl:max-w-[1650px] xl:mx-auto lg:grid lg:grid-cols-5 lg:gap-4 lg:content-center">
+    <section className="px-[3rem] flex flex-col items-center md:px-[8rem] xl:max-w-[1650px] xl:mx-auto lg:grid lg:grid-cols-5 lg:px-1 lg:content-center lg:items-start ">
       <Image
         src={"/bedroom.webp"}
         alt="image"
-        width={600}
+        width={700}
         height={300}
         quality={100}
-        className="object-contain brightness-90 lg:col-span-2"
+        layout="responsive"
+        className="object-fill brightness-90 lg:col-span-2 w-full xl:max-h-[550px]"
       />
-      <div className="lg:col-span-2 px-10 text-center">
+      <div className="px-10 py-5 text-start flex flex-col gap-4 lg:col-span-2 lf:gap-8 ">
         <Title title="advantages" />
-        <ul>
+        <ul className="flex flex-col gap-2 font-medium text-6xl ">
           <li>Design</li>
-          <li>Creativity</li>
+          <li className="ml-8 text-7xl title-transparent">Creativity</li>
           <li>Beauty</li>
         </ul>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
-          laborum eos excepturi neque odit quidem quis quia asperiores, amet
-          voluptate, assumenda id non obcaecati culpa iusto distinctio, fuga
-          ipsum in?
+        <p className="text-2xl">
+          Crafting spaces, inspiring lives <br /> where design meets innovation
         </p>
         <button className="btn">View more</button>
       </div>
-      <div className="lg:col-span-1">
+      <div className="hidden lg:block lg:col-span-1 h-[100%]">
         <Image
           src={"/kitchen.webp"}
           alt="image"
-          width={700}
+          width={300}
           height={500}
-          className="w-[100%] h-[80%] object-cover brightness-90 md:w-[40%] lg:w-[100%]"
+          className="w-full h-[100%] object-cover brightness-90  lg:w-full"
         />
       </div>
     </section>
