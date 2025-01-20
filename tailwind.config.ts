@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        border: "#d0c9c915",
       },
       lineHeight: {
         "12": "3.7rem",
