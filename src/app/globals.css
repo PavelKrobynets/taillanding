@@ -20,6 +20,12 @@ body {
   font-family: "Lora";
 }
 
+section,
+header {
+  max-width: 1650px;
+  margin-inline: auto;
+}
+
 .title-transparent {
   background-image: url("/mramor.webp");
   background-clip: text;

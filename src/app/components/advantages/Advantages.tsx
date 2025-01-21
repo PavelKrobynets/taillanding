@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Advantages() {
   return (
-    <section className="xl:max-w-[1650px] xl:mx-auto gap-8 pb-[100px] relative">
-      <div className="px-[3rem] flex flex-col items-center md:px-[8rem]  lg:grid lg:grid-cols-5 lg:px-1 lg:content-center lg:items-start ">
+    <section className=" gap-8 pb-[100px] relative">
+      <div className="px-[2rem]  md:px-[8rem]  lg:grid lg:grid-cols-5 lg:px-1 lg:content-center lg:items-start ">
         <Image
           src={"/bedroom.webp"}
           alt="image"
@@ -13,7 +13,7 @@ export default function Advantages() {
           quality={100}
           className="object-fill brightness-90 lg:col-span-2 w-full xl:max-h-[550px]"
         />
-        <div className="px-10 py-5 text-start flex flex-col gap-4 lg:col-span-2 lf:gap-8 ">
+        <div className=" py-5 text-start flex flex-col gap-4 lg:col-span-2 lf:gap-8 ">
           <Title title="advantages" />
           <ul className="flex flex-col gap-2 font-medium text-6xl ">
             <li>Design</li>
@@ -36,9 +36,9 @@ export default function Advantages() {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-12 lg:pl-[5rem] pt-[8rem] px-[2rem] lg:grid-cols-4 ">
+      <div className="ml-[4rem] grid grid-cols-2 gap-12 lg:pl-[5rem] pt-[8rem] px-[2rem] lg:grid-cols-4 ">
         <div className="lg:col-span-1 mx-auto lg:px-5 relative">
-          <div className="absolute border rounded w-[7rem] h-[10rem] -top-[10px] right-[10rem] border-border "></div>
+          <div className="absolute border rounded w-[7rem] h-[10rem] -top-[10px] right-[8rem] lg:right-[10rem] border-border "></div>
           <h4 className="">
             <span className="text-8xl">1</span>
             <span className="text-7xl relative">k</span>
@@ -46,7 +46,7 @@ export default function Advantages() {
           <p className="text-2xl mt-2">Created designs</p>
         </div>
         <div className="lg:col-span-1 mx-auto lg:px-5 relative">
-          <div className="absolute border rounded w-[7rem] h-[10rem] -top-[10px] right-[10rem] border-border"></div>
+          <div className="absolute border rounded w-[7rem] h-[10rem] -top-[10px] right-[8rem] lg:right-[10rem] border-border"></div>
           <h4 className="">
             <span className="text-8xl">600</span>
             <span className="text-7xl relative"></span>
@@ -54,7 +54,7 @@ export default function Advantages() {
           <p className="text-2xl mt-2">Happy clients</p>
         </div>
         <div className="lg:col-span-1 mx-auto lg:px-5 relative">
-          <div className="absolute border rounded w-[7rem] h-[10rem] -top-[10px] right-[10rem] border-border"></div>
+          <div className="absolute border rounded w-[7rem] h-[10rem] -top-[10px] right-[8rem] lg:right-[10rem] border-border"></div>
           <h4 className="">
             <span className="text-8xl">57</span>
             <span className="text-7xl relative"></span>
@@ -62,7 +62,7 @@ export default function Advantages() {
           <p className="text-2xl mt-2">Award winners</p>
         </div>
         <div className="lg:col-span-1 mx-auto lg:px-5 relative">
-          <div className="absolute border rounded w-[7rem] h-[10rem] -top-[10px] right-[10rem] border-border"></div>
+          <div className="absolute border rounded w-[7rem] h-[10rem] -top-[10px] right-[8rem] lg:right-[10rem] border-border"></div>
           <h4 className="">
             <span className="text-8xl">19</span>
             <span className="text-7xl relative">k</span>
@@ -70,7 +70,7 @@ export default function Advantages() {
           <p className="text-2xl mt-2">Cups of coffee</p>
         </div>
       </div>
-      <div className="hidden md:block xl:text-[22rem] text-stroke-bg left-[-10px] bottom-[-150px]">
+      <div className="hidden md:block xl:text-[22rem] text-stroke-bg left-[-10px] xl:bottom-[-150px] bottom-[10px]">
         Achievements
       </div>
     </section>

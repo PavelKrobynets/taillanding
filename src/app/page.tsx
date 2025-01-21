@@ -1,4 +1,4 @@
-import { Header, Intro, Carousel, About, Advantages } from "./index";
+import { Header, Intro, Carousel, About, Advantages, Services } from "./index";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <Carousel />
       <About />
       <Advantages />
+      <Services />
     </div>
   );
 }

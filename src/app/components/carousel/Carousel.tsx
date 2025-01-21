@@ -11,7 +11,7 @@ import "./carousel.scss";
 
 export default function Carousel() {
   return (
-    <section className="h-[20%] ">
+    <section className="h-[20%]  max-w-full">
       <Swiper
         spaceBetween={50}
         speed={5300}
