@@ -17,7 +17,7 @@ export default function ServicesItem(props: IItem) {
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="border-t-[1px] border-zinc-700 relative h-[16rem] xl:h-[12rem]"
+      className="border-t-[1px] border-zinc-700 relative h-[16rem] lg:h-[12rem] "
     >
       <div
         className={`absolute inset-0 flex flex-col gap-4 top-[1.2rem] items-center md:flex-row transition-transform duration-800 ${

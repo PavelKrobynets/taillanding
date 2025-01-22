@@ -1,4 +1,12 @@
-import { Header, Intro, Carousel, About, Advantages, Services } from "./index";
+import {
+  Header,
+  Intro,
+  Carousel,
+  About,
+  Advantages,
+  Services,
+  Gallery,
+} from "./index";
 
 export default function Home() {
   return (
@@ -9,6 +17,7 @@ export default function Home() {
       <About />
       <Advantages />
       <Services />
+      <Gallery />
     </div>
   );
 }
