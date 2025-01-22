@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Advantages() {
   return (
     <section className=" gap-8 pb-[100px] relative">
-      <div className="px-[2rem]  md:px-[8rem]  lg:grid lg:grid-cols-5 lg:px-1 lg:content-center lg:items-start ">
+      <div className="px-[2rem]   md:px-[8rem]  lg:grid lg:grid-cols-5 lg:px-1 lg:content-center lg:items-start ">
         <Image
           src={"/bedroom.webp"}
           alt="image"
@@ -13,7 +13,7 @@ export default function Advantages() {
           quality={100}
           className="object-fill brightness-90 lg:col-span-2 w-full xl:max-h-[550px]"
         />
-        <div className=" py-5 text-start flex flex-col gap-4 lg:col-span-2 lf:gap-8 ">
+        <div className=" py-5 text-start flex flex-col gap-4 md:px-[2rem] lg:col-span-2 lf:gap-8 ">
           <Title title="advantages" />
           <ul className="flex flex-col gap-2 font-medium text-6xl ">
             <li>Design</li>
@@ -70,7 +70,7 @@ export default function Advantages() {
           <p className="text-2xl mt-2">Cups of coffee</p>
         </div>
       </div>
-      <div className="hidden md:block xl:text-[22rem] text-stroke-bg left-[-10px] xl:bottom-[-150px] bottom-[10px]">
+      <div className="hidden lg:block xl:text-[22rem] text-stroke-bg left-[-10px] xl:bottom-[-150px] bottom-[10px] overflow-hidden">
         Achievements
       </div>
     </section>

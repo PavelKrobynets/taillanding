@@ -10,7 +10,7 @@ export default function About() {
         <span className="text-stroke">Impact.</span>
       </p>
       <button className="mt-6 btn">explore more</button>
-      <div className="hidden md:block xl:text-[22rem] text-stroke-bg left-[-10px] top-[-50px]">
+      <div className="hidden lg:block xl:text-[22rem] text-stroke-bg left-[-10px] top-[-50px] overflow-hidden">
         Innovation
       </div>
     </section>

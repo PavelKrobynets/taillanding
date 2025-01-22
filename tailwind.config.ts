@@ -21,6 +21,9 @@ export default {
         85: ".85",
         90: ".9",
       },
+      transitionDuration: {
+        "800": "800ms",
+      },
     },
   },
   plugins: [],
