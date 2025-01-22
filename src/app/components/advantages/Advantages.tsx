@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Advantages() {
   return (
     <section className=" gap-8 pb-[100px] relative">
-      <div className="px-[2rem]   md:px-[8rem]  lg:grid lg:grid-cols-5 lg:px-1 lg:content-center lg:items-start ">
+      <div className="px-[2rem]  md:px-[8rem]  lg:grid lg:grid-cols-5 lg:px-1 lg:content-center lg:items-start ">
         <Image
           src={"/bedroom.webp"}
           alt="image"

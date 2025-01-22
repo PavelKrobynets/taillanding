@@ -3,7 +3,7 @@ import ServicesItem from "../servicesItem/ServicesItem";
 export default function Services() {
   return (
     <section className="px-[2rem] flex flex-col gap-14 lg:flex-row pb-[150px] max-w-[1400px]">
-      <div className="w-[40%]">
+      <div className="lg:w-[40%]">
         <Title title="what we do" />
         <h3 className="my-4 leading-10 text-5xl font-semibold lg:text-[3rem] lg:leading-12">
           Services We Provide
@@ -13,7 +13,7 @@ export default function Services() {
           reserch abusiness high level process consultation for business.
         </p>
       </div>
-      <div className="relative w-[60%]">
+      <div className="relative lg:w-[60%]">
         <ServicesItem
           id={1}
           path={"/services/sketch.svg"}
