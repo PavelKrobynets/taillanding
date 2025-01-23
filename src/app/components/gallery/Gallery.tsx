@@ -2,7 +2,7 @@ import Image from "next/image";
 import Title from "../title/Title";
 export default function Gallery() {
   return (
-    <section className="flex flex-col lg:max-w-[1400px] px-[2rem]">
+    <section className="flex flex-col lg:max-w-[1400px] px-[2rem] pb-[7rem]">
       <Title title="Our gallery" />
       <h4 className="my-4 leading-10 text-5xl font-semibold lg:text-[3rem] lg:leading-12">
         Latest showcase

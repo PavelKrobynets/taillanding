@@ -5,5 +5,15 @@ import About from "./components/about/About";
 import Advantages from "./components/advantages/Advantages";
 import Services from "./components/services/Services";
 import Gallery from "./components/gallery/Gallery";
+import Footer from "./components/footer/Footer";
 
-export { Header, Intro, Carousel, About, Advantages, Services, Gallery };
+export {
+  Header,
+  Intro,
+  Carousel,
+  About,
+  Advantages,
+  Services,
+  Gallery,
+  Footer,
+};

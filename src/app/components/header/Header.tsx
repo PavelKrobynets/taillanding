@@ -31,13 +31,13 @@ export default function Header() {
             isOpened ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
           }`}
         >
-          <NavMenu />
+          <NavMenu gap={4} />
         </nav>
       </div>
       {/* SCREEN */}
       <div className="hidden lg:flex">
         <nav>
-          <NavMenu />
+          <NavMenu gap={6} />
         </nav>
       </div>
       <Image

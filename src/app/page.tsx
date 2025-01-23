@@ -6,6 +6,7 @@ import {
   Advantages,
   Services,
   Gallery,
+  Footer,
 } from "./index";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Advantages />
       <Services />
       <Gallery />
+      <Footer />
     </div>
   );
 }
