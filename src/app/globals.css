@@ -21,7 +21,8 @@ body {
 }
 
 section,
-header {
+header,
+footer {
   max-width: 1650px;
   margin-inline: auto;
 }

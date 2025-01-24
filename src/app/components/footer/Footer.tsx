@@ -14,8 +14,10 @@ import NavMenu from "../navMenu/NavMenu";
 export default function Footer() {
   return (
     <footer className="flex flex-col px-[2rem] pb-[1rem]">
-      <div className="flex flex-col gap-8 md:flex-row justify-between border-y-[1px] border-y-zinc-700 items-center py-12">
-        <h4 className="font-small text-4xl capitalize">Get in touch</h4>
+      <div className="flex flex-col gap-8 md:flex-row justify-between border-y-[1px] border-y-zinc-700 items-center py-12 lg:px-[3rem]">
+        <h4 className="font-small text-4xl capitalize lg:text-7xl">
+          Get in touch
+        </h4>
         <button className="btn">send a message</button>
       </div>
       <div className="flex flex-col gap-12 items-center py-[3rem] border-b-[1px] border-y-zinc-700">
@@ -26,7 +28,7 @@ export default function Footer() {
           height={100}
           className=""
         />
-        <ul className="flex flex-col gap-6">
+        <ul className="flex flex-col lg:flex-row gap-6 lg:gap-[8rem]">
           <li className="flex flex-row items-center gap-3">
             <div className="bg-zinc-800 p-3 rounded-full">
               <Phone />
@@ -70,19 +72,19 @@ export default function Footer() {
         <NavMenu gap={2} />
         <ul className="flex flex-row space-x-7">
           <li>
-            <Twitter className="w-5" />
+            <Twitter className="w-5 cursor-pointer" />
           </li>
           <li>
-            <Facebook className="w-5" />
+            <Facebook className="w-5 cursor-pointer" />
           </li>
           <li>
-            <Linkedin className="w-5" />
+            <Linkedin className="w-5 cursor-pointer" />
           </li>
           <li>
-            <Instagram className="w-5" />
+            <Instagram className="w-5 cursor-pointer" />
           </li>
           <li>
-            <Send className="w-5" />
+            <Send className="w-5 cursor-pointer" />
           </li>
         </ul>
       </div>
